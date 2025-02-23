@@ -1,0 +1,114 @@
+/* Container Styling */
+.background {
+  background-image: url('C:\Users\Admin\OneDrive\Desktop\PROJECTS\therapyapp\back.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}  
+.flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f3f4f6;
+  }
+  
+  /* Form Box */
+  .bg-white {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .text-xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #a0d995;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #388e3c;
+    outline: none;
+  }
+  
+  /* Textarea */
+  textarea.input-field {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* Button */
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: #27ae60;
+  }
+  
+  /* Error Message */
+  .text-red-500 {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Login Link */
+  .text-sm {
+    font-size: 14px;
+  }
+  
+  .text-blue-500 {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .text-blue-500:hover {
+    text-decoration: underline;
+  }
+  
+
+  
