@@ -1,0 +1,323 @@
+General Dashboard Styling
+.dashboard-container {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #dff2bf, #fcf3a6);
+    padding: 20px;
+    min-height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header */
+  /* .header {
+    background: #a8d5ba;
+    padding: 15px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: #2c5527;
+  } */
+  
+  /* Section Styling */
+  .section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    width: 85%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c5527;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Dropdowns */
+  .dropdown-button {
+    background: #eaf5d6;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-button:hover {
+    background: #cce7a3;
+    transform: scale(1.03);
+  }
+  
+  .dropdown-content {
+    background: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+  }
+  
+  .dropdown-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Select Dropdowns */
+  .dropdown-select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #a8d5ba;
+    border-radius: 8px;
+    background: white;
+    font-size: 16px;
+    color: #333;
+    transition: border 0.3s ease;
+  }
+  
+  .dropdown-select:focus {
+    border: 2px solid #2c5527;
+    outline: none;
+  }
+  
+  /* Assign Button */
+  .assign-button {
+    width: 100%;
+    background: #2c5527;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .assign-button:hover {
+    background: #204020;
+    transform: scale(1.05);
+  }
+  
+  /* Assigned Patients List */
+  .assigned-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .assigned-item {
+    background: #fcf3a6;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reports Styling */
+  .reports-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .report-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  .report-item strong {
+    color: #2c5527;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .section {
+      width: 95%;
+    }
+  
+    .dropdown-button,
+    .assign-button {
+      font-size: 14px;
+    }
+  
+    .header {
+      font-size: 22px;
+    }
+  
+    .section-title {
+      font-size: 18px;
+    }
+  }
+  /* General Dashboard Styling */
+.dashboard-container {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e6f7d4, #fdf5c9);
+  padding: 20px;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #b2e3a8;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+.section {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 20px auto;
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3b6b34;
+  margin-bottom: 15px;
+}
+
+/* Dropdowns */
+.dropdown-button {
+  background: #dff2bf;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.dropdown-button:hover {
+  background: #c8e6a0;
+}
+
+.dropdown-content {
+  background: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* Select Dropdowns */
+.dropdown-select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #b2e3a8;
+  border-radius: 8px;
+  background: white;
+  font-size: 16px;
+  color: #333;
+  transition: border 0.3s ease;
+}
+
+.dropdown-select:focus {
+  border: 2px solid #3b6b34;
+  outline: none;
+}
+
+/* Assign Button */
+.assign-button {
+  width: 100%;
+  background: #3b6b34;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.assign-button:hover {
+  background: #2c5527;
+}
+
+/* Assigned Patients List */
+.assigned-list {
+  list-style: none;
+  padding: 0;
+}
+
+.assigned-item {
+  background: #fdf5c9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section {
+    width: 95%;
+  }
+
+  .dropdown-button,
+  .assign-button {
+    font-size: 14px;
+  }
+}
