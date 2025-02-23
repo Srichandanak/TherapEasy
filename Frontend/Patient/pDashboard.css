@@ -1,0 +1,301 @@
+/* General Dashboard Styling */
+.dashboard-container {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e6f7d4, #fdf5c9);
+  padding: 20px;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header */
+.dashboard-header {
+  background: linear-gradient(135deg, #b2e3a8, #e5d28b);
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+/* Navigation */
+.dashboard-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-nav button {
+  background: transparent;
+  border: 2px solid #3b6b34;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #3b6b34;
+  transition: all 0.3s ease;
+}
+
+.dashboard-nav button:hover {
+  background: #c8e6a0;
+  transform: scale(1.05);
+}
+
+/* Services Section */
+.services {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.service {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service img {
+  width: 160px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+/* Current Plans */
+.current-plans {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.plans-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.plan {
+  background: linear-gradient(135deg, #fdf5c9, #e5d28b);
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 220px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.done {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 255, 0, 0.3);
+}
+
+/* Appointment */
+.appointment {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.appointment-form input,
+.appointment-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 320px;
+}
+
+.appointment-form input {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #3b6b34;
+  color: #333;
+  outline: none;
+}
+
+.appointment-form button {
+  background: linear-gradient(135deg, #b2e3a8, #e5d28b);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.appointment-form button:hover {
+  background: linear-gradient(135deg, #a2d78f, #d4c17f);
+  transform: scale(1.05);
+}
+
+/* Feedback */
+/* .feedback {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.feedback textarea {
+  width: 90%;
+  max-width: 500px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #b2e3a8;
+  font-size: 16px;
+  resize: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #333;
+  outline: none;
+  align-items: center;
+}
+
+.feedback button {
+  padding: 12px;
+  background: linear-gradient(135deg, #b2e3a8, #e5d28b);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.feedback button:hover {
+  background: linear-gradient(135deg, #a2d78f, #d4c17f);
+  transform: scale(1.05);
+
+} */
+
+.feedback {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center;
+}
+
+.feedback-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between textarea and button */
+}
+
+.feedback textarea {
+  width: 90%;
+  max-width: 500px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #b2e3a8;
+  font-size: 16px;
+  resize: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #333;
+  outline: none;
+}
+
+.feedback button {
+  padding: 12px;
+  background: linear-gradient(135deg, #b2e3a8, #e5d28b);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-top: 0; /* Remove margin-top */
+  height: 50px; /* Match textarea height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback button:hover {
+  background: linear-gradient(135deg, #a2d78f, #d4c17f);
+  transform: scale(1.05);
+}
+
+/* Submission Status */
+.submission-success {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow: 0px 0px 10px rgba(40, 167, 69, 0.8);
+}
+
+.submission-error {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow: 0px 0px 10px rgba(255, 77, 77, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-cards,
+  .plans-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
